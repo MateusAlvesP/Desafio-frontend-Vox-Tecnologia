@@ -1,0 +1,69 @@
+.navbar{
+    background-color: #C3CFD9;
+}
+
+.navbar-brand{
+    color: #2C88D9;
+    margin-left: 2%;
+}
+
+.grid{
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.info{
+    margin-left: 3%;
+    border-width: 0px;
+    border-radius: 0;
+    border-left: solid 2px #2C88D9;
+}
+
+.info-content{
+    margin-left: 5%;
+}
+
+.info-item{
+    margin-bottom: 5px;
+}
+
+li{
+    border-width: 3px;
+    border-color: #C3CFD9;
+    margin-bottom: 20px;
+}
+
+#btnSolicitar{
+    margin-left:auto;
+    margin-right: 2%;
+    background-color: #2C88D9;
+    color: white;
+}
+
+#btnVisualizar{
+    background-color: #2C88D9;
+    color: white;
+}
+
+#btnEditar{
+    margin-left: 30%;
+    background-color: #413c49;
+    color: white;
+}
+
+#info-title{
+    font-size: large;
+    font-weight: bold;
+    color:#7e7e7e;
+    display:inline;
+}
+
+#info-subtitle{
+    margin-top: 5%;
+    font-size: 17px;
+    margin-bottom: 4%;
+}
+
+#nav-title{
+    padding-left: 5%;
+}

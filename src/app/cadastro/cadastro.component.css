@@ -1,0 +1,64 @@
+.navbar{
+    background-color: #C3CFD9;
+}
+
+.navbar-brand{
+    color: #2C88D9;
+    margin-left: 2%;
+}
+
+.grid{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.info{
+    margin-left: 3%;
+    border-width: 0px;
+    border-radius: 0;
+    border-left: solid 2px #2C88D9;
+}
+
+.info-content{
+    margin-left: 5%;
+}
+
+.form-title{
+    font-size: large;
+    font-weight: bold;
+    color:#858788;
+}
+
+.validation-error{
+    color: red;
+    font-size: 12px;
+}
+
+input:not([type="radio"]),select{
+    border-width: 3px;
+    border-radius: 0;
+    border-color: #C3CFD9;
+    padding: 4px;
+    height: 32px;
+    font-size: 16px;
+}
+
+b{
+    padding-left: 5%;
+}
+
+label{
+    font-size: 14px;
+    color:#7e7e7e;
+    font-weight: bold;
+    margin: 0%;
+}
+
+button{
+    background-color: #2C88D9;
+    color: white;
+}
+
+[hidden] {
+    display: none !important;
+}

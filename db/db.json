@@ -1,0 +1,158 @@
+{
+  "empresas": [
+    {
+      "solicitante": {
+        "ds_responsavel": "Catarina Ester da Cruz",
+        "nu_cpf": "83812080176",
+        "date_nascimento": "1984-04-20"
+      },
+      "empresa": {
+        "ds_nome_fantasia": "Diogo e Marcelo Filmagens Ltda",
+        "co_entidade_registro": 104306,
+        "co_natureza_juridica": 10021,
+        "endereco": {
+          "co_cep": 14022094,
+          "ds_logradouro": "Rua Alcino Jacinto Ramos",
+          "co_numero": "233",
+          "ds_complemento": null,
+          "ds_bairro": "Quinta da Primavera",
+          "co_municipio": 2902104,
+          "co_uf": 29
+        }
+      },
+      "id": 1
+    },
+    {
+      "solicitante": {
+        "ds_responsavel": "Ryan Vinicius Nicolas Almeida",
+        "nu_cpf": "02494725976",
+        "date_nascimento": "1990-09-30"
+      },
+      "empresa": {
+        "ds_nome_fantasia": "Isabela e Benício Transportes Ltda",
+        "co_entidade_registro": 104308,
+        "co_natureza_juridica": 10030,
+        "endereco": {
+          "co_cep": 14022094,
+          "ds_logradouro": "Rua Francisco Nunes Villela",
+          "co_numero": "233",
+          "ds_complemento": "Apt 304",
+          "ds_bairro": "Vila dos Comerciários I",
+          "co_municipio": 2801504,
+          "co_uf": 28
+        }
+      },
+      "id": 2
+    },
+    {
+      "solicitante": {
+        "ds_responsavel": "Steve Jobs",
+        "nu_cpf": "123321123-12",
+        "date_nascimento": "2021-09-07"
+      },
+      "empresa": {
+        "ds_nome_fantasia": "Apple Ltda",
+        "co_entidade_registro": 104306,
+        "co_natureza_juridica": 10098,
+        "endereco": {
+          "co_cep": "12342-321",
+          "ds_logradouro": "Rua 13 ",
+          "co_numero": "233",
+          "ds_complemento": "",
+          "ds_bairro": "Vale do Silício",
+          "co_municipio": 2201051,
+          "co_uf": 22
+        }
+      },
+      "id": 3
+    }
+  ],
+  "natureza-juridica": [
+    {
+      "key": 10032,
+      "value": "Consórcio de Sociedades"
+    },
+    {
+      "key": 10074,
+      "value": "Consórcio Simples"
+    },
+    {
+      "key": 10031,
+      "value": "Cooperativa"
+    },
+    {
+      "key": 10098,
+      "value": "Cooperativa de Consumo"
+    },
+    {
+      "key": 10067,
+      "value": "Empresa Individual de Responsabilidade Limitada (de Natureza Empresária)"
+    },
+    {
+      "key": 10020,
+      "value": "Empresa Pública"
+    },
+    {
+      "key": 10030,
+      "value": "Empresário (Individual)"
+    },
+    {
+      "key": 10035,
+      "value": "Estabelecimento, no Brasil, de Empresa Binacional Argentino-Brasileira"
+    },
+    {
+      "key": 10034,
+      "value": "Estabelecimento, no Brasil, de Sociedade Estrangeira"
+    },
+    {
+      "key": 10033,
+      "value": "Grupo de Sociedades"
+    },
+    {
+      "key": 10022,
+      "value": "Sociedade Anônima Aberta"
+    },
+    {
+      "key": 10023,
+      "value": "Sociedade Anônima Fechada"
+    },
+    {
+      "key": 10021,
+      "value": "Sociedade de Economia Mista"
+    },
+    {
+      "key": 10027,
+      "value": "Sociedade Empresária em Comandita por Ações"
+    },
+    {
+      "key": 10026,
+      "value": "Sociedade Empresária em Comandita Simples"
+    },
+    {
+      "key": 10025,
+      "value": "Sociedade Empresária em Nome Coletivo"
+    },
+    {
+      "key": 10024,
+      "value": "Sociedade Empresária Limitada"
+    }
+  ],
+  "entidade-registro": [
+    {
+      "key": 104305,
+      "value": "Cartório"
+    },
+    {
+      "key": 104306,
+      "value": "Junta Comercial"
+    },
+    {
+      "key": 104308,
+      "value": "OAB"
+    },
+    {
+      "key": 104309,
+      "value": "RFB"
+    }
+  ]
+}

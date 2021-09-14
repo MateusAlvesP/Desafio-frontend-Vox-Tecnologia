@@ -1,0 +1,78 @@
+<nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://cdn.discordapp.com/attachments/877247271840907325/886379692301619230/vox.png" alt="Vox Tecnologia logo" width="60" height="60" class="d-inline-block align-text top">
+        <b id="nav-title">Pedidos de Abertura da empresa</b>
+      </a>
+      <button type="button" routerLink="/cadastro" (click)="resetPedido()" class="btn d-flex align-items-center" id="btnSolicitar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"></path>
+        </svg>
+        &nbsp;
+        Solicitar Abertura
+      </button>
+    </div>
+</nav>
+
+
+<div class="row grid">
+    <ul style="width: 30rem" class="list-group rounded-0 col-md-auto">
+
+      <li *ngFor="let pedido of pedidos" class="list-group-item d-flex justify-content-between align-items-center" style="border-top-width: 3px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
+        <div class="ms-2 me-auto">
+          <div class="fw-bold">
+            {{pedido.solicitante.ds_responsavel}}</div>
+          {{pedido.empresa.ds_nome_fantasia}}
+        </div>
+        <button (click)="mostraDetalhes(pedido.id)" type="button" class="btn d-flex align-items-center" id="btnVisualizar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+            <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+            <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+          </svg>
+          &nbsp;
+          Visualizar
+        </button>
+      </li>
+  
+    </ul>
+    
+    <div class="info col-md-auto" style="width: 40rem;">
+      <div *ngIf="visualiza" class="info-content">
+        <p id="info-title">
+          Detalhes do pedido
+        </p>
+        <button type="button" class="btn" routerLink="/cadastro" id="btnEditar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+          </svg>
+          Editar
+        </button>
+        
+  
+        <p id="info-subtitle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+          </svg>
+          {{nomeEmpresa}}
+        </p>
+        
+        <p class="info-item"><b>Responsável:</b> {{responsavel}}</p>
+        <p class="info-item"><b>CPF:</b> {{cpf}}</p>
+        <p class="info-item"><b>Endereço:</b> {{endereco}}</p>
+        <p class="info-item"><b>Bairro:</b> {{bairro}}</p>
+        <p class="info-item"><b>Cidade:</b> {{cidade}}</p>
+        <p class="info-item"><b>CEP:</b> {{cep}}</p>
+        <p class="info-item"><b>Complemento:</b> {{complemento}}</p>
+        <p class="info-item"><b>UF:</b> {{uf}}</p>
+        <p class="info-item"><b>Número:</b> {{numero}}</p>
+      </div>
+    </div>
+  
+  
+</div>
