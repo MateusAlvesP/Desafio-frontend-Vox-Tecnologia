@@ -29,5 +29,9 @@ As imagens abaixo mostram algumas telas do sistema:
 </p>
 
 <p>
+  <img src="https://i.imgur.com/9Zs6tav.png" width="1000"/>
+</p>
+
+<p>
   <img src="https://i.imgur.com/o3ckrca.png" width="1000"/>
 </p>
