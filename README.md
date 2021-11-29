@@ -25,7 +25,7 @@ Se a api não for iniciada, o projeto não funcionará como esperado.
 As imagens abaixo mostram algumas telas do sistema:
 
 ## 1) Tela Inicial
-Nessa tela são listados todos os pedidos de abertura de empresa. É possível visualizar mais informações sobre o andamento de um pedido de abertura clicando no botão **Visualizar**, que mostra informações adicionais no lado direito da barra vertical azul. Clicando no botão **Solicitar Abertura** no canto superior direito é possível criar um novo de pedido de abertura de empresas. Também é possível editar informações de um pedido já existente clicando em **Editar**.
+Nessa tela são listados todos os pedidos de abertura de empresa. É possível visualizar mais informações sobre o andamento de um pedido de abertura ao clicar no botão **Visualizar**, que mostra informações adicionais no lado direito da barra vertical azul. Clicando no botão **Solicitar Abertura** no canto superior direito é possível criar um novo pedido de abertura de empresas. Também é possível editar informações de um pedido já existente clicando em **Editar**.
 
 <p>
   <img src="https://i.imgur.com/2O7dp9H.png" width="1000"/>
