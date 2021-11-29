@@ -21,3 +21,13 @@ cd db
 json-server --watch db.json
 ```
 Se a api não for iniciada, o projeto não funcionará como esperado.
+
+As imagens abaixo mostram algumas telas do sistema:
+
+<p>
+  <img src="https://i.imgur.com/2O7dp9H.png" width="1000"/>
+</p>
+
+<p>
+  <img src="https://i.imgur.com/o3ckrca.png" width="1000"/>
+</p>
